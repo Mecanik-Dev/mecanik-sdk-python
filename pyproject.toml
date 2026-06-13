@@ -16,7 +16,7 @@ dependencies = ["requests>=2.25"]
 [project.urls]
 Homepage = "https://mecanik.dev/en/api/"
 Documentation = "https://api.mecanik.dev/docs"
-Source = "https://github.com/mecanik/mecanik-sdk-python"
+Source = "https://github.com/Mecanik-Dev/mecanik-sdk-python"
 
 [tool.setuptools]
 packages = ["mecanik"]
