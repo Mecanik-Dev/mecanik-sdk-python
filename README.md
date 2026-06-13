@@ -1,4 +1,4 @@
-# mecanik (Python)
+# Mecanik API (Python)
 
 Official Python client for the [Mecanik API](https://mecanik.dev/en/api/): AI, security analysis, email, reports and developer utility endpoints. Pay-per-use credits, no subscription.
 
