@@ -1,6 +1,6 @@
 """Official Python client for the Mecanik API.
 
-    from mecanik import MecanikClient
+    from mecanik_api import MecanikClient
 
     mecanik = MecanikClient(account_id="YOUR_UUID", token="YOUR_TOKEN")
     result = mecanik.tools.security_headers(url="https://example.com")

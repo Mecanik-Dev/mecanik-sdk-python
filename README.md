@@ -7,13 +7,13 @@ Official Python client for the [Mecanik API](https://mecanik.dev/en/api/): AI, s
 ## Install
 
 ```bash
-pip install mecanik
+pip install mecanik-api
 ```
 
 ## Quick start
 
 ```python
-from mecanik import MecanikClient
+from mecanik_api import MecanikClient
 
 mecanik = MecanikClient(account_id="YOUR_ACCOUNT_UUID", token="YOUR_API_TOKEN")
 
@@ -29,7 +29,7 @@ balance = mecanik.credits()  # {"credits": ...}
 ## Error handling
 
 ```python
-from mecanik import MecanikError
+from mecanik_api import MecanikError
 
 try:
     mecanik.tools.dns_lookup(domain="example.com")
