@@ -116,6 +116,9 @@ class Tools:
     def email_deliverability(self, **body: Any) -> Any: return self._c._tool("email-deliverability", body)
     def email_validator(self, **body: Any) -> Any: return self._c._tool("email-validator", body)
     def email_validator_bulk(self, **body: Any) -> Any: return self._c._tool("email-validator-bulk", body)
+    def email_spam_check(self, **body: Any) -> Any: return self._c._tool("email-spam-check", body)
+    def email_header_analyzer(self, **body: Any) -> Any: return self._c._tool("email-header-analyzer", body)
+    def email_blacklist_check(self, **body: Any) -> Any: return self._c._tool("email-blacklist-check", body)
 
     # Premium Reports
     def website_audit(self, **body: Any) -> Any: return self._c._tool("website-audit", body)
