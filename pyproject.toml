@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mecanik"
+version = "1.0.0"
+description = "Official Python client for the Mecanik API: AI, security analysis, email, reports and developer utility endpoints."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Mecanik" }]
+keywords = ["mecanik", "api", "sdk", "security", "ai", "dns", "seo", "email-validation", "developer-tools"]
+dependencies = ["requests>=2.25"]
+
+[project.urls]
+Homepage = "https://mecanik.dev/en/api/"
+Documentation = "https://api.mecanik.dev/docs"
+Source = "https://github.com/mecanik/mecanik-sdk-python"
+
+[tool.setuptools]
+packages = ["mecanik"]
