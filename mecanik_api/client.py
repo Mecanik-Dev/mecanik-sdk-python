@@ -102,6 +102,16 @@ class Tools:
     def ai_alt_text(self, **body: Any) -> Any: return self._c._tool("ai-alt-text", body)
     def ai_moderation(self, **body: Any) -> Any: return self._c._tool("ai-moderation", body)
 
+    # Documents, Media & Rendering
+    def url_screenshot(self, **body: Any) -> Any: return self._c._tool("url-screenshot", body)
+    def html_to_pdf(self, **body: Any) -> Any: return self._c._tool("html-to-pdf", body)
+    def url_to_markdown(self, **body: Any) -> Any: return self._c._tool("url-to-markdown", body)
+    def document_to_markdown(self, **body: Any) -> Any: return self._c._tool("document-to-markdown", body)
+    def ocr(self, **body: Any) -> Any: return self._c._tool("ocr", body)
+    def invoice_extract(self, **body: Any) -> Any: return self._c._tool("invoice-extract", body)
+    def speech_to_text(self, **body: Any) -> Any: return self._c._tool("speech-to-text", body)
+    def vat_validate(self, **body: Any) -> Any: return self._c._tool("vat-validate", body)
+
     # Security & Website Analysis
     def security_headers(self, **body: Any) -> Any: return self._c._tool("security-headers", body)
     def tls_check(self, **body: Any) -> Any: return self._c._tool("tls-check", body)
